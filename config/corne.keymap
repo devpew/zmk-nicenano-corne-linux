@@ -82,7 +82,7 @@
                         bindings = <
    &trans          &trans     &kp PAGE_UP        &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME                &kp CARET            &kp PAGE_UP             &kp UP_ARROW       &kp PAGE_DOWN      &kp HOME     &trans
    &trans          &trans     &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END                 &kp MINUS            &kp LEFT_ARROW          &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END      &trans
-   &out OUT_TOG    &trans     &trans             &trans            &trans              &trans                 &trans              &trans                 &trans            &trans            &trans       &out OUT_TOG
+   &out OUT_TOG    &trans     &trans             &trans            &trans              &kp F16                 &trans              &trans                 &trans            &trans            &trans       &out OUT_TOG
                               &trans             &mo ADJUST        &trans              &trans   &trans   &trans
                         >;
                 };
