@@ -80,9 +80,9 @@
 //                                   '--------+----------+----------'       '---------+----------+---------'
 
                         bindings = <
-   &trans          &trans     &kp PAGE_UP        &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME                &kp CARET            &kp PAGE_UP             &kp UP_ARROW       &kp PAGE_DOWN      &kp HOME     &trans
-   &trans          &trans     &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END                 &kp MINUS            &kp LEFT_ARROW          &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END      &trans
-   &out OUT_TOG    &trans     &trans             &trans            &trans              &trans                  &trans               &trans                  &trans             &trans             &trans       &out OUT_TOG
+   &trans          &trans     &kp PAGE_UP        &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME                &kp CARET            &kp PAGE_UP             &kp UP_ARROW       &kp PAGE_DOWN      &kp HOME     &kp F17
+   &trans          &trans     &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END                 &kp MINUS            &kp LEFT_ARROW          &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END      &kp F18
+   &out OUT_TOG    &trans     &trans             &trans            &trans              &kp F15                 &kp F16              &kp F19                 &kp F2O            &kp F21            &trans       &out OUT_TOG
                               &trans             &mo ADJUST        &trans              &trans   &trans   &trans
                         >;
                 };
